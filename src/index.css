@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: sans-serif;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+#bar{
+  border: solid black 1.5px;
+  height: 35px;
+  width: 120px;
+  line-height: 30px;
+  position: relative;
+  text-align: center;
+  border-radius: 4px;
+  margin: auto;
+  margin-top: 30vh;
+}
+
+#con{
+ height: 35px;
+ 
+ width: 120px;
+ border:none;
+ position: absolute;
+ background-color: #30b069;
+ 
+ }
+
+ #per{
+   z-index: 2;
+   position: absolute;
+   display: inline-block;
+   
+ }
